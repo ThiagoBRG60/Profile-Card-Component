@@ -1,0 +1,95 @@
+:root {
+  --cyan: hsl(185, 75%, 39%);
+  --very-dark-blue: hsl(229, 23%, 23%);
+  --grayish-blue: hsl(227, 10%, 46%);
+  --dark-gray: hsl(0, 0%, 59%);
+  --primary-font: "Kumbh Sans";
+}
+*,
+*:after,
+*:before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+body {
+  font-size: 100%;
+  list-style-type: none;
+  font-family: var(--primary-font);
+  height: 100vh;
+  background-color: var(--cyan);
+  overflow: hidden;
+}
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+#top-pattern {
+    position: absolute;
+    top: -48%;
+    left: -2.5%;
+}
+#bottom-pattern {
+    position: absolute;
+    bottom: -55%;
+    right: -4%;
+}
+.profile-box {
+  width: 450px;
+  height: 520px;
+  background-color: #fff;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+#profile-background {
+  width: 100%;
+  position: relative;
+}
+#profile-image {
+  width: 130px;
+  margin-top: -55px;
+  border-radius: 50%;
+  border: 7px solid #fff;
+  position: relative;
+}
+.profile-box h1 {
+  margin-top: 15px;
+  color: var(--very-dark-blue);
+}
+.profile-box h1 span {
+  font-weight: lighter;
+  color: var(--grayish-blue);
+}
+.profile-box h3 {
+  margin-top: 10px;
+  font-weight: lighter;
+  color: var(--grayish-blue);
+}
+.stats {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  width: 450px;
+  height: 120px;
+  position: absolute;
+  bottom: 0;
+  background-color: #fff;
+  border-top: 1px solid hsla(227, 10%, 46%, 0.3);
+}
+.stats h1 {
+    font-size: 25px;
+}
+.stats p {
+    margin-top: 6px;
+    font-size: 16px;
+    color: var(--grayish-blue);
+}

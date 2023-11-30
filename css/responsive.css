@@ -1,0 +1,107 @@
+@media (max-width: 430px) {
+  #top-pattern {
+    top: -60%;
+    left: -175%;
+  }
+  #bottom-pattern {
+    bottom: -52%;
+    right: -180%;
+  }
+  .profile-box {
+    width: 350px;
+    height: 430px;
+  }
+  #profile-background {
+    width: 100%;
+  }
+  #profile-image {
+    width: 120px;
+  }
+  .profile-box h1 {
+    font-size: 25px;
+  }
+  .stats {
+    gap: 40px;
+    width: 350px;
+  }
+  .stats h1 {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 375px) {
+  #top-pattern {
+    top: -60%;
+    left: -215%;
+  }
+  #bottom-pattern {
+    bottom: -82%;
+    right: -210%;
+  }
+}
+
+@media (max-width: 360px) {
+  #top-pattern {
+    top: -60%;
+    left: -215%;
+  }
+  #bottom-pattern {
+    bottom: -62%;
+    right: -230%;
+  }
+  .profile-box {
+    width: 300px;
+    height: 400px;
+  }
+  #profile-image {
+    width: 100px;
+  }
+  .profile-box h1 {
+    font-size: 22px;
+  }
+  .profile-box h3 {
+    font-size: 18px;
+  }
+  .stats {
+    width: 300px;
+  }
+  .stats h1 {
+    font-size: 22px;
+  }
+  .stats p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 280px) {
+  #top-pattern {
+    top: -70%;
+    left: -300%;
+  }
+  #bottom-pattern {
+    bottom: -88%;
+    right: -280%;
+  }
+  .profile-box {
+    width: 250px;
+    height: 380px;
+  }
+  #profile-image {
+    width: 90px;
+  }
+  .profile-box h1 {
+    font-size: 18px;
+  }
+  .profile-box h3 {
+    font-size: 16px;
+  }
+  .stats {
+    width: 250px;
+  }
+  .stats h1 {
+    font-size: 18px;
+  }
+  .stats p {
+    font-size: 12px;
+  }
+}
