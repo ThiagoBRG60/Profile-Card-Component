@@ -1,3 +1,14 @@
+@media (max-width: 1441px) {
+  #top-pattern {
+    top: -75%;
+    left: -20%;
+  }
+  #bottom-pattern {
+    bottom: -90%;
+    right: -20%;
+  }
+}
+
 @media (max-width: 430px) {
   #top-pattern {
     top: -60%;
